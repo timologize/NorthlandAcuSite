@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-main {
+div.landing {
     background-color: #a7d5f8;
     width: 100vw;
     height: 100vh;
@@ -24,7 +24,7 @@ main {
     z-index: -1;
   } */
 
-main h1.main-title {
+div.landing h1.main-title {
     margin-top: 30vh;
     text-shadow: 3px 3px 3px rgb(114, 111, 111);
     text-decoration: underline rgba(0, 0, 0, 0.5);
@@ -32,35 +32,35 @@ main h1.main-title {
     font-family: 'Courier New', Courier, monospace
 }
 
-main p {
+div.landing p {
     font-size: 25px;
     font-style: italic;
 }
 
-main ul {
+div.landing ul {
     padding: 0;
 }
 
-main ul li {
+div.landing ul li {
     text-decoration: none;
     display: inline;
     font-size: 22px;
     margin-inline: 10px;
 }
 
-main p.copyright {
+div.landing p.copyright {
     font-size: 17px;
     margin-top: auto;
     margin-bottom: 5vh;
 }
 
-main ul li a{
+div.landing ul li a{
     text-decoration: none;
     color: rgb(19, 48, 95);
     transition: 0.3s;
 }
 
-main ul li a:hover{
+div.landing ul li a:hover{
     text-decoration: none;
     color: rgb(138, 133, 133);
 }
