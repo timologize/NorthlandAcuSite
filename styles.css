@@ -122,6 +122,10 @@ div.info ul {
 }
 
 @media only screen and (max-width: 580px) {
+    .menulist {
+        margin-right: 8vw;
+    }
+
     .menulist li a {
         margin-right: 1vw;
         margin-top: 3vh;
