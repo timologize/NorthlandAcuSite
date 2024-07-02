@@ -5,12 +5,24 @@ body {
 }
 
 .menu {
-    height: 100px;
+    height: 11vh;
     background-color: #4699da;
 }
 
-@media (width <= 1250px) {
-    /* … */
+@media only screen and (max-width: 1230px) {
+
+    div.content div.info {
+        margin-inline: 0%;
+    }
+    div.topinfo {
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    div.topinfo img{
+        width: 50%;
+        height: 50%;
+        padding-bottom: 10%;
+    }
 }
   
 
@@ -22,13 +34,14 @@ body {
 
 .menulist li {
     float: right;
-    margin: 35px 28px;
+    margin-right: 3vw;
+    margin-top: 3.5vh;
 }
 
 .menulist li.left {
     float: left;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-right: 3vw;
+    margin-top: 3.5vh;
 }
 
 
@@ -37,13 +50,13 @@ body {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: 0.3s;
 }
 
 .menulist li.left a {
-    font-size: 30px;
+    font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -53,21 +66,43 @@ body {
 }
 
 h1.title {
-    margin-top: 40px;
+    margin-top: 2%;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px
+}
+
+div.topinfo {
+    display: flex;
+    justify-content: center;
+}
+
+div.info div.topinfo p{
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+div.topinfo img{
+    margin-top: 1%;
 }
 
 div.info {
-    padding-bottom: 30%;
-    margin-top: 40px;
-    height: 8vh;
-    margin-inline: 200px;
+    margin-top: 2%;
+    margin-inline: 10%;
     background-color: white;
+    min-height: 80%;
+    padding-top: 3%;
+    padding-inline: 10%;
+    font-size: 30px;
+    padding-bottom: 3%;
 }
 
 div.info p {
-    padding-top: 80px;
-    margin-inline: 80px;
-    font-size: 30px;
+    margin-top: 0;
 }
+
+div.info ul {
+    font-size: 25px;
+}
+
