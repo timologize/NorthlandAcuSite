@@ -72,6 +72,41 @@ div.info {
     padding-bottom: 10%;
 }
 
+div.info-hours {
+    display: flex;
+    flex-direction: column;
+}
+
+div.info-hours ul li{
+    list-style-type: none;
+    padding: 0;
+    font-size: 25px;
+}
+
+div.info-location {
+    display: flex;
+    flex-direction: column;
+}
+
+div.info-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+div.info-rates {
+    display: flex;
+    flex-direction: column;
+}
+
+div.info-rates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div.info-rates ul li{
+    font-size: 30px;
+}
+
 div.info ul {
     font-size: 22px;
 }
