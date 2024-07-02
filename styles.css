@@ -123,12 +123,12 @@ div.info ul {
 
 @media only screen and (max-width: 580px) {
     .menulist {
-        margin-right: 8vw;
+        margin-right: 12vw;
     }
 
     .menulist li a {
         margin-right: 1vw;
-        margin-top: 3vh;
+        margin-top: 1vh;
         font-size: 16px;
     }
     
