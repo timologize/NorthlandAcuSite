@@ -11,6 +11,7 @@ body {
     background-color: #a7d5f8;
     display: flex;
     align-items: center;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5)
 }
 
 .menulist {
@@ -26,6 +27,8 @@ body {
 
 .menulist li.left {
     margin-right: 3vw;
+    text-shadow: 1px 1px 2px rgb(114, 111, 111);
+    text-decoration: underline rgba(0, 0, 0, 0.1)
 }
 
 
@@ -60,6 +63,7 @@ div.info {
     justify-content: center;
     border-style: double;
     border-color: #383a3b;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.1)
 }
 
 div.info img{
@@ -92,23 +96,34 @@ div.info-hours {
 div.info-hours p {
     font-weight: bold;
     font-style: italic;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 div.info-hours p.location {
-    font-size: 23px;
+    font-size: 25px;
     font-style: normal;
 }
 
 div.info-hours ul {
     list-style-type: none;
-    padding: 0;
-    font-size: 25px;
+    padding-left: 2%;
+    margin-top: 1%;
+    font-size: 22px;
 }
 
 div.info-location {
     display: flex;
     flex-direction: column;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+div.info-location p.location{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 div.info-contact {
