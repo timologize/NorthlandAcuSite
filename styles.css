@@ -5,31 +5,29 @@ body {
 }
 
 .menu {
-    height: 90px;
+    height: 100px;
     background-color: #4699da;
+    display: flex;
+    align-items: center;
 }
 
 .menulist {
     list-style-type: none;
-    background-color: #333;
-    margin-right: 5vw;
+    display: flex;
+    align-items: center;
 }
 
 .menulist li {
-    float: right;
+    display: inline;
     margin-right: 3vw;
-    margin-top: 3.5vh;
 }
 
 .menulist li.left {
-    float: left;
     margin-right: 3vw;
-    margin-top: 3vh;
 }
 
 
 .menulist li a {
-    display: block;
     color: black;
     text-align: center;
     text-decoration: none;
@@ -39,7 +37,7 @@ body {
 }
 
 .menulist li.left a {
-    font-size: 25px;
+    font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -55,18 +53,12 @@ h1.title {
     font-size: 25px
 }
 
-div.topinfo {
+div.info {
     display: flex;
     justify-content: center;
 }
 
-div.info div.topinfo p{
-    margin-right: 10%;
-    margin-top: 3%;
-    font-size: 30px;
-}
-
-div.topinfo img{
+div.info img{
     margin-top: 1%;
 }
 
@@ -74,19 +66,14 @@ div.info {
     margin-top: 2%;
     margin-inline: 10%;
     background-color: white;
-    min-height: 80%;
     padding-top: 3%;
     padding-inline: 10%;
-    font-size: 30px;
-    padding-bottom: 3%;
-}
-
-div.info p {
-    margin-top: 0;
+    font-size: 27px;
+    padding-bottom: 6%;
 }
 
 div.info ul {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 1230px) {
@@ -94,12 +81,12 @@ div.info ul {
     div.info {
         margin-inline: 0%;
     }
-    div.topinfo {
+    div.info {
         flex-direction: column;
         justify-content: center;
         margin-top: 5%;
     }
-    div.topinfo img{
+    div.info img{
         width: 30%;
         height: 30%;
         padding-bottom: 10%;
@@ -110,7 +97,7 @@ div.info ul {
     h1.title {
         margin-top: 6%;
     }
-    div.topinfo img{
+    div.info img{
         width: 50%;
         height: 50%;
         padding-bottom: 10%;
@@ -121,16 +108,4 @@ div.info ul {
     }
 }
 
-@media only screen and (max-width: 580px) {
-    .menulist {
-        margin-right: 14vw;
-    }
-
-    .menulist li a {
-        margin-right: 1vw;
-        margin-top: 1vh;
-        font-size: 16px;
-    }
-    
-}
 
