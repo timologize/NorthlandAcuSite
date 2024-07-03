@@ -141,6 +141,10 @@ div.info {
     padding-bottom: 6%;
 }
 
+div.info div.text {
+    margin-right: 5%;
+}
+
 div.info p#Features {
     font-weight: bold;
     font-size: 30px;
@@ -251,6 +255,16 @@ div.footer {
 
     .menulist li.left {
         display: none; 
+    }
+
+    .menulist li {
+        padding-inline: 5px;
+        margin-right: 5px;
+    }
+
+    .menulist {
+        padding-inline: 5px;
+        margin-right: 5px;
     }
 }
 
