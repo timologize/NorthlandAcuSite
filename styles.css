@@ -128,7 +128,7 @@ div.info {
 
 div.info img{
     margin-top: 1%;
-    object-fit: cover;
+    object-fit: contain
 }
 
 div.info {
