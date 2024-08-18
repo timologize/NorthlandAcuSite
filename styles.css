@@ -213,6 +213,7 @@ div.info-rates ul li{
 
 div.info ul {
     font-size: 20px;
+    list-style-type: none;
 }
 
 div.footer {
